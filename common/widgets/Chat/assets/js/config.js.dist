@@ -1,0 +1,26 @@
+(function() {
+window.ChatClient = {
+      RESPONSE_STATUSES: {
+        'USER_NOT_FOUND' : 'USER_NOT_FOUND',
+        'CONVERSATION_ALREADY_EXISTS': 'CONVERSATION_ALREADY_EXISTS'
+      },
+      DEFAULT_EVENT_NAME: 'default',
+      EVENT_PREFIX: 'on',
+      CONNECTION_STATE: 4,
+      CONNECTION_STATES: {
+        CONNECTING: 0,
+        OPEN: 1,
+        CLOSING: 2,
+        CLOSED: 3,
+      },
+      RECONNECT_INTERVAL_SPEED: 1500,
+      port: 443,
+      protocol: 'wss',
+      generateTokenProtocol: 'https',
+      domain: 'selo99.ru',
+      url: '',
+      accessToken: null,
+      connectionAttempts: 0,
+      connectionAttemptsMax: 10,
+    };
+}());
