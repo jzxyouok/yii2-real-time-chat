@@ -35,5 +35,5 @@ sad4353dsfgai/
 # Vagrant box files
 
 /vagrant
-.vagrant
-Vagrantfile
+# .vagrant
+# Vagrantfile
