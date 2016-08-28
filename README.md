@@ -1,5 +1,5 @@
-# yii2-real-time-chat
-Realtime chat component for Yii2. Dev/prototype version not stable.
+# Real time chat component for Yii 2
+Dev/prototype version not stable.
 ## Backend side founded:
 ### Yii 2 Advanced Project Template
 Yii2 [https://github.com/yiisoft/yii2-app-advanced](https://github.com/yiisoft/yii2-app-advanced "GitHub repository")
