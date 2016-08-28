@@ -1,4 +1,4 @@
-# Real time chat component for Yii 2
+# Real time chat component for Yii 2 on Back: Ratchet PHP, MongoDB. Front: Websocket, VueJS
 Dev/prototype version not stable.
 ## Backend side founded:
 ### Yii 2 Advanced Project Template
